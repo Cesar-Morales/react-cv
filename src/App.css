@@ -1,0 +1,7 @@
+.body {
+    position: relative;
+    background-image: linear-gradient(rgb(121, 19, 141), black);
+    color: white;
+    padding: 40rem 30rem;
+    margin: 1rem;
+}
