@@ -3,13 +3,14 @@ import './App.css';
 /*Components */
 import NavBar from './component/NavBar'
 import Footer from './component/Footer'
-import Card from './component/Card'
+import ProfileCard from './component/ProfileCard'
+
 
 function App() {
   return (
     <div>
       {/* Card */}   
-        <Card></Card>
+        <ProfileCard></ProfileCard>
       {/* navbar fixed */}
         <NavBar></NavBar>
       {/* footer */}
