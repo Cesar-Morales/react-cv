@@ -1,6 +1,5 @@
 .backgroundbody {
-    background-image: linear-gradient(rgb(121, 19, 141), black);
+    background-image: linear-gradient(rgb(186, 12, 221), rgb(121, 19, 141), rgb(54, 20, 61), black);
     color: white;
-    padding: 40rem 30rem;
-    margin: 1rem;
+    padding: 31rem;
 }
