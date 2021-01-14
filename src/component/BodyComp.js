@@ -1,19 +1,24 @@
 import React, { Component } from 'react'
 import Box from '@material-ui/core/Box'
-import Button from '@material-ui/core/Button';
 
 export default class BodyComp extends Component {
-    render() {
-        return (
-            <div>
-                <Button>asd</Button>
-                <Box component="div" whiteSpace="nowrap">
-                  White Space Nowrap
-                </Box>
-                <Box component="div" whiteSpace="normal">
-                  White Space Normal
-                </Box>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <Box  zIndex='1' position="absolute" top="28%" right="20%" left="20%" style={{background: 'white'}} >
+        <Box>TEXT</Box>
+        <Box>TEXT</Box>
+        <Box>TEXT</Box>
+        <Box>TEXT</Box>
+        <Box>TEXT</Box>
+        <Box>TEXT</Box>
+        <Box>TEXT</Box>
+        <Box>TEXT</Box>
+        <Box>TEXT</Box>
+        <Box>TEXT</Box>
+        <Box>TEXT</Box>
+        <Box>TEXT</Box>
+        <img width='100%' height='70%' src={process.env.PUBLIC_URL + '/images/moralesCesarLogo.png'} alt="background" /> 
+      </Box>
+    )
+  }
 }

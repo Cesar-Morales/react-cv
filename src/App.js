@@ -1,24 +1,24 @@
 
 /*Components */
-import NavBar from './component/NavBar'
-import Footer from './component/Footer'
-import ProfileCard from './component/ProfileCard'
+//import NavBar from './component/NavBar'
+//import Footer from './component/Footer'
+import CoverPage from './component/CoverPage'
 import BodyComp from './component/BodyComp'
-import {Box} from '@material-ui/core'
+import {Container} from '@material-ui/core'
 
 
 function App() {
   return (
-    <Box width={1} style={{background:'purple'}}>
+    <Container maxWidth='xl'>
       {/* Card */}   
-        <ProfileCard></ProfileCard>
+        <CoverPage></CoverPage>
       {/* navbar fixed */}
+      <BodyComp></BodyComp>
+      {/* Body 
         <NavBar></NavBar>
-      {/* Body */}
-        <BodyComp></BodyComp>
-      {/* footer */}
-        <Footer></Footer>
-    </Box>
+      {/* footer 
+        <Footer></Footer>*/}
+    </Container>
   );
 }
 
