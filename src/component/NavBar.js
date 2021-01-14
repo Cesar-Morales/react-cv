@@ -25,7 +25,7 @@ const position = {
     position: 'fixed',
     top: '40%',
     left: '20px',
-    border: '5px solid black'
+    border: '1px solid black'
     
 }
 const border = {
