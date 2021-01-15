@@ -2,7 +2,7 @@
 /*Components */
 //import NavBar from './component/NavBar'
 //import Footer from './component/Footer'
-import CoverPage from './component/CoverPage'
+import BackgroundImage from './component/BackgroundImage'
 import BodyComp from './component/BodyComp'
 import {Container} from '@material-ui/core'
 
@@ -11,9 +11,9 @@ function App() {
   return (
     <Container maxWidth='xl'>
       {/* Card */}   
-        <CoverPage></CoverPage>
+        <BackgroundImage></BackgroundImage>
       {/* navbar fixed */}
-      <BodyComp></BodyComp>
+        <BodyComp></BodyComp>
       {/* Body 
         <NavBar></NavBar>
       {/* footer 
