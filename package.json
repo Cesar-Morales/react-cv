@@ -2,7 +2,7 @@
   "name": "cesarmorales.site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://cesar-morales.github.io/react-cv",
+  "homepage": "https://cesar-morales.github.io/react-cv",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
