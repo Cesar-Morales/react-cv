@@ -2,7 +2,7 @@
   "name": "cesarmorales.site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cesar-morales.github.io/react-cv",
+  "homepage": "https://moralescesar.site",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
@@ -18,8 +18,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy":"npm run build && echo 'moralescesar.site' > ./build/CNAME",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build && echo 'moralescesar.site' > ./build/CNAME",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
