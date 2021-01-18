@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {Box, Container} from '@material-ui/core'
+import Links from './Links'
 
 export default class BodyComp extends Component {
   render() {
@@ -14,44 +15,25 @@ export default class BodyComp extends Component {
         <Box  position='relative' top='80px'> 
           <br/>
           <Container style={{marginBottom:'150px'}}>
-          <Box
-            style={{borderColor:'pink'}}
-            border={1} 
-            bgcolor="text.primary">
-              <Box
-                color='white' 
-                bgcolor="text.secondary">
-                <p style={{ textAlign:'center'}}>moralesCesar@www:~</p>
-              </Box>
-              <div style={p}>
-                  <p><span style={span2}>moralesCesar@www</span><span>:</span><span style={span1}>~</span><span>$  ls -l</span></p>
-                  <p>total 19</p>
-                  <p><span>drwxr-xr-x 2 moralesCesar moralesCesar  4096 Jan 1  2021</span>  <span style={span1}>.git/</span></p>
-                  <p><span>-rwxr-xr-x 2 moralesCesar moralesCesar  4096 Jan 1  2021</span>  <span style={span1}>curriculum.pdf</span></p>
-                  <p><span>drwxr-xr-x 2 moralesCesar moralesCesar  4096 Jan 1  2021</span>  <span style={span1}>linkedln/</span></p>
-                  <p><span style={span2}>moralesCesar@www</span><span>:</span><span style={span1}>~</span><span>$ init 0</span></p>
-              </div>
-          </Box>
-          </Container>
+            <Box
+              style={{borderColor:'pink'}}
+              border={1} 
+              bgcolor="text.primary">
+                <Box
+                  color='white' 
+                  bgcolor="text.primary">
+                  <p 
+                    style={{ textAlign:'center'}}>
+                      cesar@www:~
+                  </p>
+                </Box>
+                <Links/>
+            </Box>
+          </Container> 
         </Box>
       </Box>
     )
   }
-}
-const p = {
-  color: 'white',
-  fontFamily: 'Ubuntu, "times new roman", times, roman, serif',
-  padding: '10px',
-  paddingLeft: '20px',
-  paddingRight: '20px',
-  lineHeight:'15px'
-}
-const span1 = {
-  color: 'pink'
-}
-
-const span2 = {
-  color: 'purple'
 }
 
 const border = {

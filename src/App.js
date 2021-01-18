@@ -6,7 +6,6 @@ import BackgroundImage from './component/BackgroundImage'
 import BodyComp from './component/BodyComp'
 import {Container} from '@material-ui/core'
 
-
 function App() {
   return (
     <Container maxWidth='xl'>
@@ -23,7 +22,9 @@ function App() {
 }
 
 export default App;
+
 /*
+Degrade de colores
 const backgroundbody = {
   backgroundImage: 'linear-gradient(rgb(186, 12, 221), rgb(121, 19, 141), rgb(54, 20, 61), black)',
   color: 'white',
