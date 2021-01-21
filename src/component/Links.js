@@ -18,7 +18,7 @@ export default class Links extends Component {
                           style={span1} 
                           target="_blank" 
                           rel="noopener noreferrer" 
-                          href={'https://github.com/Cesar-Morales'}>
+                          href={'http://bit.ly/moralesCesarGitHub'}>
                            .git/
                         </a>
                     </span>
@@ -29,7 +29,7 @@ export default class Links extends Component {
                         <a style={span1} 
                             target="_blank" 
                             rel="noopener noreferrer" 
-                            href={process.env.PUBLIC_URL + '/Curriculum.pdf'}> curriculum.pdf</a>
+                            href={'http://bit.ly/moralesCesarCV'}> curriculum.pdf</a>
                     </span>
                 </p>
                 <p>
@@ -38,7 +38,7 @@ export default class Links extends Component {
                         <a style={span1} 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            href={'https://www.linkedin.com/in/cesar-morales-2021/'}>
+                            href={'http://bit.ly/moralesCesarLinkedin'}>
                              linkedin/</a>
                     </span>
                 </p>
